@@ -1,4 +1,4 @@
-## Assignment: **Float Arithmetic Functions in C + Makefile**
+## Assignment: **Float Arithmetic Functions and a Makefile**
 
 You’ll write a tiny arithmetic library using floats, then use it in a program.
 Finally, you’ll build a simple Makefile to compile everything.
