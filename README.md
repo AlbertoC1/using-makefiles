@@ -168,15 +168,17 @@ Your Makefile must support:
 2. `make run` → builds (if needed) and runs
 3. `make clean` → removes the executable
 
-### Makefile Template (no variables except CFLAGS)
+### Makefile Template 
+
+Please complete the my_program rule (all of the other rules are complete!
 
 ```make
 CFLAGS = -Wall -Wextra -pedantic
 
 all: my_program
 
-my_program: main.c arith_utils.c
-	gcc $(CFLAGS) main.c arith_utils.c -o my_program
+my_program:
+	gcc $(CFLAGS) 
 
 run: all
 	./my_program
